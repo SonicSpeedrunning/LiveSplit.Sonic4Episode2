@@ -1,3 +1,7 @@
+// Sonic 4 Episode II - Autosplitter
+// Coding: Jujstme
+// Version 1.0.1 (Jan 9th, 2022)
+
 state ("Sonic") {}
 
 startup
