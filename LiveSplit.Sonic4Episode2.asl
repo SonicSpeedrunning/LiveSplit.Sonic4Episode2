@@ -145,7 +145,7 @@ start
 {
     bool startingNew = vars.watchers["UnlockFlags"].Current == 0 &&
                        vars.watchers["MainMenuSelectionPointer"].Old != 0 && !vars.watchers["MainMenuSelectionPointer"].Changed &&
-                       vars.watchers["MainMenuSelection"].Old == 0 && vars.watchers["MainMenuSelection"].Current == 0 && // Selected first menu option on the main menu
+                       vars.watchers["MainMenuSelection"].Old == 0 && // Selected first menu option on the main menu
                        vars.AButtonPressed;
 
     bool startingNewGamePlus = vars.watchers["ZoneSelect"].Current == 0 && vars.watchers["ActSelect"].Current == 0 && vars.IsConfirmationActStartScreen && vars.AButtonPressed;
